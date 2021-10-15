@@ -18,7 +18,7 @@ body {
 }
 /* NAVBAR */
 .navigationbar {
-  background-color: rgba(85, 71, 240, 0.5);
+  background-color: rgba(137, 87, 254, 0.4);
   overflow: hidden;
   margin-bottom: 1em;
   position: sticky; top:0; 
@@ -28,16 +28,17 @@ body {
   list-style-type: none;
   float: right;
   text-decoration: none;
-  background-color:rgb(240, 212, 180);
-  padding: .75em;
+  background-color:rgba(172, 230, 255,0.8);
+  padding: .5em 0.5em;
   margin: .5em;
   border-radius: .3em;
 }
 
 .navigationbar ul li a {
-  font-weight: bold;
-  color:#0c358e;
+  font-weight: bolder;
+  color:#4c3cfa;
   font-size: 1.5em;
+  padding: none;
 }
 
 .navigationbar ul li:hover{
@@ -45,7 +46,7 @@ body {
   list-style-type: none;
   float: right;
   background-color: rgb(255, 255, 255);
-  padding: .75em;
+  padding: .5em 0.5em;;
   margin: .5em;
   border-radius: .3em;
   /* color: blue;
@@ -62,7 +63,7 @@ body {
   margin: auto;
   text-align: center;
   border: solid purple;
-  
+  background-color:rgba(172, 230, 255, 0.6);
   border-radius: .5em;
 }
 
@@ -72,17 +73,24 @@ body {
   width: 50%;
   margin: 1em auto;
   text-align: center;
-  padding: 2em;
-
   border: solid purple;
   border-radius: .5em;
-  background-color:rgb(255, 235, 210, 0.8);
+  background-color:rgba(172, 230, 255, 0.6);
+}
+
+.profile-container {
+  padding: 1em;
+  background-color: rgb(249, 229, 194);
+  margin: 1.5em;
+  border-radius: .7em;
+  font-size: 1.3em;
 }
 
 #profile-picture {
   width: 30%;
   margin: auto;
   border-radius: 10rem;
+  padding-bottom: 0.5em;
 }
 
 /* MIDDLE PROJECTS CONTAINER */
@@ -95,7 +103,7 @@ body {
 
   border: solid purple;
   border-radius: .5em;
-  background-color:rgb(255, 235, 210, 0.8);
+  background-color:rgba(172, 230, 255, 0.6);
 }
 
 .projectcard {
@@ -111,8 +119,8 @@ body {
   padding: none;
   border: outset;
   border-width: thick;
-  background-color:rgb(252, 193, 126);
-  color:rgb(62, 46, 245);
+  background-color:rgb(188, 184, 255);
+  color:rgb(1, 31, 255);
 }
 
 .card-img {
@@ -137,8 +145,13 @@ body {
   width: 60%;
   margin: auto;
 }
+.btn-primary {
+  width: 100%;
+  margin: auto;
+}
 
 /* BOTTOM CONTAINER */
+
 .bottom-container {
   padding: 1em;
   width: 90%;
@@ -146,10 +159,10 @@ body {
   height: 50%;
   border: solid purple;
   border-radius: .5em;
-  background-color:rgb(255, 235, 210, 0.8);
-}
+  background-color:rgba(172, 230, 255, 0.6);
 
-.btn-primary {
-  width: 100%;
-  margin: auto;
+}
+.blockquote-footer {
+  font-size: 1em;
+  color: rgb(29, 29, 29);
 }
