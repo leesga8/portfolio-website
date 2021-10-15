@@ -4,3 +4,15 @@
   text-align: center;
   /* background; */
 }
+
+#profile-picture {
+  width: 30%;
+  margin: auto;
+  border-radius: 10rem;
+}
+
+.top-profile-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
