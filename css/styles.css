@@ -157,7 +157,6 @@ body {
   padding: 1em;
   width: 90%;
   margin: 1em auto;
-  height: 50%;
   border: solid purple;
   border-radius: .5em;
   background-color:rgba(172, 230, 255, 0.8);
@@ -165,9 +164,13 @@ body {
   color:rgb(157, 0, 255)
 }
 
+
+
+/* NEED TO DEBUG CENTERING */
 #About-title {
   text-decoration: underline;
 }
+
 .blockquote-footer {
   font-size: 1em;
   color: rgb(29, 29, 29);
@@ -182,7 +185,7 @@ body {
 .experience {
   display: inline;
   width: 40%;
-  margin: auto;
+  margin-left: 2em;
 }
 
 .skills {
