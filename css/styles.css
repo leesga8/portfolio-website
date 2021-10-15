@@ -1,19 +1,24 @@
-.color1 {color: #159580;}
-.color2 {color: #75a976;}
-.color3 {color: #b8be88;}
-.color4 {color: #f4d7ab;}
-.color5 {color: #f8e5ca;}
+.color1 {color: #0c358e;}
+.color2 {color: #0877c7;}
+.color3 {color: #6dc0fd;}
+.color4 {color: #d8fcf6;}
+.color5 {color: #fffbf4;}
+.color1 {color: #140e19;}
+.color2 {color: #0e3a58;}
+.color3 {color: #0975a6;}
+.color4 {color: #03bbfc;}
+.color5 {color: #0efff9;}
 
-.body {
+body {
   background-image: url("../images/background.jpeg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  z-index: 1;
+  background-position: center;
+
 }
 /* NAVBAR */
 .navigationbar {
-  background-color: #7bcb7d;;
+  background-color: rgba(85, 71, 240, 0.5);
   overflow: hidden;
   margin-bottom: 1em;
   position: sticky; top:0; 
@@ -23,7 +28,7 @@
   list-style-type: none;
   float: right;
   text-decoration: none;
-  background-color:rgb(255, 235, 210);
+  background-color:rgb(240, 212, 180);
   padding: .75em;
   margin: .5em;
   border-radius: .3em;
@@ -31,31 +36,47 @@
 
 .navigationbar ul li a {
   font-weight: bold;
-  color:#0f6811;
+  color:#0c358e;
   font-size: 1.5em;
 }
 
-.navigationbar ul li:hover {
+.navigationbar ul li:hover{
   
   list-style-type: none;
   float: right;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: bisque;
+  background-color: rgb(255, 255, 255);
   padding: .75em;
   margin: .5em;
   border-radius: .3em;
-  text-transform: black;
+  /* color: blue;
+  
+  BUG: can't get text to change to blue when hover over li item
+
+  */
 }
 
-
-
+/* JUMBOTRON CONTAINER */
 
 .intro-text {
   width: 50%;
   margin: auto;
   text-align: center;
-  /* background; */
+  border: solid purple;
+  
+  border-radius: .5em;
+}
+
+/* PROFILE CONTAINER */
+
+.top-profile-container {
+  width: 50%;
+  margin: 1em auto;
+  text-align: center;
+  padding: 2em;
+
+  border: solid purple;
+  border-radius: .5em;
+  background-color:rgb(255, 235, 210, 0.8);
 }
 
 #profile-picture {
@@ -64,29 +85,39 @@
   border-radius: 10rem;
 }
 
-.top-profile-container {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  padding: 2em;
-}
+/* MIDDLE PROJECTS CONTAINER */
 
 .middle-container {
   padding: 1em;
   width: 90%;
   margin: auto;
   height: 50%;
+
+  border: solid purple;
+  border-radius: .5em;
+  background-color:rgb(255, 235, 210, 0.8);
 }
 
 .card {
-  border: solid purple;
   border-radius: 1em;
   overflow: hidden;
   height: 100%;
   margin: none;
   padding: none;
+  border: outset;
 }
 
 .card img {
   height: 50%;
+}
+
+/* BOTTOM CONTAINER */
+.bottom-container {
+  padding: 1em;
+  width: 90%;
+  margin: 1em auto;
+  height: 50%;
+  border: solid purple;
+  border-radius: .5em;
+  background-color:rgb(255, 235, 210, 0.8);
 }
