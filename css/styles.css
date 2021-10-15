@@ -107,8 +107,15 @@ body {
   border: outset;
 }
 
-.card img {
+.card-img {
   height: 50%;
+}
+
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
 }
 
 /* BOTTOM CONTAINER */
@@ -120,4 +127,9 @@ body {
   border: solid purple;
   border-radius: .5em;
   background-color:rgb(255, 235, 210, 0.8);
+}
+
+.btn-primary {
+  width: 100%;
+  margin: auto;
 }
