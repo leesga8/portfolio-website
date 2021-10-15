@@ -1,6 +1,6 @@
-# _{Portfoilio Website}_
+# _Portfoilio Website_
 
-#### By _**Albert Lee**_
+#### By: **Albert Lee**
 
 #### _A landing page for projects, ideas, and work_
 
@@ -19,8 +19,8 @@ _This portfolio website features projects showcasing my ideas and builds using f
 
 1. Go to https://github.com/leesga8/portfolio-website
 2. Click Green Clone button and clone repository
-3. Go to the top level of the project directory of the project in the terminal.
-4. Connect to Github Repository
+3. Go to the top level of the project directory in the terminal.
+4. Connect to the Github repository
 5. View in code editor
 
 ## Known Bugs
