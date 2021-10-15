@@ -18,17 +18,18 @@ body {
 }
 /* NAVBAR */
 .navigationbar {
-  background-color: rgba(137, 87, 254, 0.4);
+  background-color: rgba(137, 87, 254, 0.7);
   overflow: hidden;
   margin-bottom: 1em;
   position: sticky; top:0; 
+  z-index: 1;
 }
 .navigationbar ul li {
   
   list-style-type: none;
   float: right;
   text-decoration: none;
-  background-color:rgba(172, 230, 255,0.8);
+  background-color:rgba(223, 250, 250, 0.8);
   padding: .5em 0.5em;
   margin: .5em;
   border-radius: .3em;
@@ -159,8 +160,11 @@ body {
   height: 50%;
   border: solid purple;
   border-radius: .5em;
-  background-color:rgba(172, 230, 255, 0.6);
+  background-color:rgba(172, 230, 255, 0.8);
+  text-align: center;
+  color:rgb(157, 0, 255)
 }
+
 #About-title {
   text-decoration: underline;
 }
@@ -170,7 +174,27 @@ body {
 }
 
 .education {
-  display: inline;
   float: left;
+  display: inline;
+  width: 40%;
+}
+
+.experience {
+  display: inline;
+  width: 40%;
+  margin: auto;
+}
+
+.skills {
+  float: left;
+  display: inline;
+  margin: auto;
+  width: 40%;
   margin-right: 2em;
+}
+
+.interests {
+  display: inline;
+  width: 40%;
+  margin: auto;
 }
