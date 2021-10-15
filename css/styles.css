@@ -15,4 +15,21 @@
   width: 50%;
   margin: auto;
   text-align: center;
+  padding: 2em;
+}
+
+.middle-container {
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+  height: 50%;
+}
+
+.card {
+  border: solid purple;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.card img {
+  height: 50%;
 }
