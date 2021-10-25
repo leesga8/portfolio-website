@@ -15,6 +15,8 @@
 
 _This portfolio website features projects showcasing my ideas and builds using front-end development._
 
+* [GitHub Pages](https://leesga8.github.io/portfolio-website/)
+
 ## Setup/Installation Requirements
 
 1. Go to https://github.com/leesga8/portfolio-website
@@ -29,4 +31,4 @@ _This portfolio website features projects showcasing my ideas and builds using f
 
 ## License
 
-Copyright (c) _October 15, 2021_ _Albert Lee_
+_[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2021 Albert Lee_
