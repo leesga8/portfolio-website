@@ -176,6 +176,10 @@ body {
   color: rgb(29, 29, 29);
 }
 
+.bottom-container {
+  text-align: left;
+}
+
 .education {
   float: left;
   display: inline;
@@ -199,5 +203,10 @@ body {
 .interests {
   display: inline;
   width: 40%;
-  margin: auto;
+  margin-left: 2em;
+}
+
+#best {
+  color: yellow;
+  font-size: 1.5em;
 }
